@@ -1,0 +1,54 @@
+body {
+    width: 800px; margin: 0 auto;
+}
+
+/*body margin*/
+
+h1 {
+    text-align: center
+}
+
+/*header1*/
+
+h2 {
+    text-align: center
+}
+
+/*header2*/
+
+img {
+    width: 200px; height: 200 px;
+}
+
+/*image dimensions*/
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-image: url(../SmartPhoneProducts1_1/Images/phone_globe.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*styling the products display*/
+
+div {
+    border: 5px solid black;
+    display: flex;
+}
+
+/*border*/
+.rotate img
+{
+  animation: rotation .3s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
